@@ -1,0 +1,4 @@
+para hacer subir un cambio 
+1.- git status para ver que se archivo se modifico o agrego 
+2.- git commit -m "mensaje" 
+3.- git push origin main (para que lo subas al repo en la nube de github)
