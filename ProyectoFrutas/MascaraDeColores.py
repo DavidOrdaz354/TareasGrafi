@@ -6,6 +6,9 @@ def procesar_frutas():
     
     img = cv2.imread(path)
     
+    #2. Covertir al esapcio de color HSV
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    
     if img is None:
         print(f"ERROR: No se encontró la imagen en: {path}")
         print("Verifica que el nombre del archivo sea exactamente 'frutas.png'")
@@ -68,7 +71,8 @@ def procesar_frutas():
     print("-" * 35)
     print(f"TOTAL FRUTAS DETECTADAS: {frutas_reales}")
 
-    cv2.imshow('1. Imagen Original', img)
+    cv2.imshow('0. Imagen Original', img)
+    cv2.imshow("1. Imagen HSV", hsv)
     cv2.imshow('2. Mascara Cruda (Con Ruido)', mask)
     cv2.imshow('3. Mascara Final (Procesada)', mask_limpia)
     cv2.imshow('4. Resultado a Color', resultado_color)

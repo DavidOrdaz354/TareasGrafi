@@ -40,13 +40,17 @@ Se ajustaron los valores de Matiz (H), Saturación (S) y Valor (V) hasta lograr 
 ## Capturas solicitadas
 
 ### Imagen original
-![Imagen Original](imagenes/original.png)
 
-![Mascara Cruda](imagenes/mascara_cruda.png)
 
-![Mascara Final](imagenes/mascara_final.png)
 
-![Resultado Color](imagenes/resultado_color.png)
+![Imagen Original](original.png.png)
+
+
+![Mascara Cruda](imagenes/mascara_cruda.png.png)
+
+![Mascara Final](imagenes/mascara_final.png.png)
+
+![Resultado Color](imagenes/resultado_color.png.png)
 
 
 ---
